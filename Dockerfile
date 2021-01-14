@@ -1,5 +1,5 @@
 # Base image
-FROM bsantamaria/servercore-chocolatey:1809
+FROM bsantamaria/servercore-chocolatey
 
 # Install git, dotnetcore-sdk
 RUN powershell -command "choco install -y git dotnetcore-sdk"
